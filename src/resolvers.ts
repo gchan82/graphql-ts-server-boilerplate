@@ -1,5 +1,5 @@
 import { ResolverMap } from "./types/graphql-utils";
-
+import 'GQL' from "./types/schema.d.ts";
 
 export const resolvers: ResolverMap = {
   Query: {
